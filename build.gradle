@@ -6,8 +6,9 @@ buildscript {
         mavenCentral()
         maven { url 'https://jitpack.io' }
         maven {
-            // Repositori AlienMultyAds yang dicurigai (Mencoba HTTP, BUKAN HTTPS)
             url 'http://sdk.is.com/' 
+            // BARIS WAJIB: Mengizinkan HTTP untuk mengatasi error Gradle 7.x
+            allowInsecureProtocol = true 
         }
 
     }
@@ -22,8 +23,9 @@ allprojects {
         mavenCentral() 
         maven { url 'https://jitpack.io' }
         maven {
-            // Repositori AlienMultyAds yang dicurigai (Mencoba HTTP, BUKAN HTTPS)
             url 'http://sdk.is.com/' 
+            // BARIS WAJIB: Mengizinkan HTTP untuk mengatasi error Gradle 7.x
+            allowInsecureProtocol = true 
         }
     
     }

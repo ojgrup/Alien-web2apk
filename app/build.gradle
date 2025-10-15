@@ -4,7 +4,7 @@ apply plugin: 'com.android.application'
 
 android {
     // Diperlukan untuk AGP 7.x dan untuk memenuhi persyaratan Play Store modern
-    compileSdkVersion 33 
+    compileSdkVersion 34 
     
     namespace 'mak.webview.wallpaperalien' // Wajib untuk AGP 7.x ke atas
 
@@ -12,7 +12,7 @@ android {
         applicationId "mak.webview.wallpaperalien"
         minSdkVersion 21
         // TargetSdkVersion harus sama dengan compileSdkVersion, atau lebih tinggi
-        targetSdkVersion 33 
+        targetSdkVersion 34 
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"

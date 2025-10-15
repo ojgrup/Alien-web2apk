@@ -59,8 +59,7 @@ dependencies {
     */
     implementation 'com.google.android.play:core:1.10.3' // Versi yang lebih baru
     
-    // Ini adalah dependensi AlienMultyAds yang memerlukan repositori khusus (sudah Anda setel)
-    implementation 'com.github.aliendroid-kim:AlienMultyAds:Earth-09' 
+     
     
     implementation 'androidx.work:work-runtime:2.9.0' // Perbarui versi work-runtime
     implementation 'com.squareup.picasso:picasso:2.800' // Versi yang lebih baru dari 2.71828

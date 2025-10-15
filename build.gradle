@@ -3,30 +3,21 @@
 buildscript {
     repositories {
         google()
-        mavenCentral() // Mengganti jcenter() yang sudah usang
-        maven { url 'https://jitpack.io' }
-        maven {
-            url 'https://sdk.is.com/' // KOREKSI: URL yang benar untuk AlienMultyAds
-        }
-
+        mavenCentral()
+        maven { url 'https://jitpack.io' } // Repositori utama untuk banyak custom library
+        // MENGHAPUS Repositori sdk.is.com di sini karena menyebabkan error 'Name or service not known'
     }
     dependencies {
-        // Ini adalah versi AGP yang kompatibel dengan Java 17 dan Gradle 7.4.2
         classpath 'com.android.tools.build:gradle:7.1.3' 
-        
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
     }
 }
 
 allprojects {
     repositories {
         google()
-        mavenCentral() // Mengganti jcenter() yang sudah usang, dan diperlukan untuk library standar (seperti Picasso)
-        maven { url 'https://jitpack.io' }
-        maven {
-            url 'https://sdk.is.com/' // KOREKSI: URL yang benar untuk AlienMultyAds
-        }
+        mavenCentral() // WAJIB untuk dependency standar seperti Picasso (Picasso ada di sini!)
+        maven { url 'https://jitpack.io' } // AlienMultyAds kemungkinan ada di sini
+        // MENGHAPUS Repositori sdk.is.com di sini karena menyebabkan error 'Name or service not known'
     
     }
 }

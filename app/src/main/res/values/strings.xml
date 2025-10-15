@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Alien Webview</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="recipe">Recent Wallpaper</string>
+    <string name="fav">Favorite</string>
+
+    <string name="moreapp_link">http://google.com</string>
+    <string name="shareit">Isi Keterangan share app</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Recent</string>
+    <string name="menu_gallery">Favorite</string>
+    <string name="menu_beranda">Home</string>
+
+    <string name="menu_send">Rate</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_cari">Search</string>
+    <string name="sure_exit">Are you sure you want to exit?</string>
+    <string name="exit">Exit</string>
+    <string name="url_developer">https://aliendro.id/</string>
+    <string name="sdk_key_applovin">ApFxqXwCIOqILKL7mrNaN17drdOnJ6UTwkOkFJwTikr23AAp0XONZW0P8PBSVfwPNJ7dc2AJm0MqBWcB30ZcWZ</string>
+    <string name="sponsored">sponsored</string>
+    <string name="admobappid">ca-app-pub-3940256099942544~3347511713</string>
+</resources>

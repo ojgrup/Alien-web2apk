@@ -3,15 +3,16 @@
 buildscript {
     repositories {
         google()
-        jcenter()
+        mavenCentral() // Mengganti jcenter() yang sudah usang
         maven { url 'https://jitpack.io' }
         maven {
-            url 'https://android-sdk.is.com/'
+            url 'https://sdk.is.com/' // KOREKSI: URL yang benar untuk AlienMultyAds
         }
 
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.1.3'
+        // Ini adalah versi AGP yang kompatibel dengan Java 17 dan Gradle 7.4.2
+        classpath 'com.android.tools.build:gradle:7.1.3' 
         
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -21,10 +22,10 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral() // Mengganti jcenter() yang sudah usang, dan diperlukan untuk library standar (seperti Picasso)
         maven { url 'https://jitpack.io' }
         maven {
-            url 'https://android-sdk.is.com/'
+            url 'https://sdk.is.com/' // KOREKSI: URL yang benar untuk AlienMultyAds
         }
     
     }

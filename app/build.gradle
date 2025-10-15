@@ -62,7 +62,7 @@ dependencies {
      
     
     implementation 'androidx.work:work-runtime:2.9.0' // Perbarui versi work-runtime
-    implementation 'com.squareup.picasso:picasso:2.800' // Versi yang lebih baru dari 2.71828
+    implementation 'com.squareup.picasso:picasso:2.71828' // Versi yang lebih baru dari 2.71828
     
     // multiDexEnabled memerlukan implementasi androidx
     implementation 'androidx.multidex:multidex:2.0.1' 

@@ -5,12 +5,7 @@ buildscript {
         google()
         mavenCentral()
         maven { url 'https://jitpack.io' }
-        maven {
-            url 'http://sdk.is.com/' 
-            // BARIS WAJIB: Mengizinkan HTTP untuk mengatasi error Gradle 7.x
-            allowInsecureProtocol = true 
-        }
-
+        // BARIS SDK.IS.COM DIHAPUS
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.1.3' 
@@ -22,12 +17,7 @@ allprojects {
         google()
         mavenCentral() 
         maven { url 'https://jitpack.io' }
-        maven {
-            url 'http://sdk.is.com/' 
-            // BARIS WAJIB: Mengizinkan HTTP untuk mengatasi error Gradle 7.x
-            allowInsecureProtocol = true 
-        }
-    
+        // BARIS SDK.IS.COM DIHAPUS
     }
 }
 
